@@ -50,7 +50,7 @@ class App extends Component {
                 </div>
 				<div style={{marginLeft:"55%"}}>
                 Sort By:
-                <input type="radio" value="Male" name="sortby" /> Rating
+                <input type="radio" value="rating" name="sortby" /> Rating
                 <input type="radio" value="Votes" name="sortby" /> Votes
                 <input type="radio" value="average cost for two" name="sortby" /> Average Cost
                 for Two
