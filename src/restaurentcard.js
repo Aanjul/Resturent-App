@@ -3,23 +3,10 @@ import ReactDOM from 'react-dom'
 import '../src/card.scss'
 
 const PostsData = [
-  //   {
-  //     "category": "News",
-  //     "title": "CNN Acquire BEME",
-  //     "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-  //     "image": "https://source.unsplash.com/user/erondu/600x400"
-  //   },
-  //   {
-  //     "category": "Science",
-  //     "title": "Nomad Lifestyle",
-  //     "text": "Learn our tips and tricks on living a nomadic lifestyle",
-  //     "image": "https://source.unsplash.com/user/_vickyreyes/600x400"
-  //   },
-
   {
     restaurantID: "6317637",
     restaurantName: "Le Petit Souffle",
-    cuisines: "French",
+    cuisines: "French, Japanese, Desserts",
     averageCostForTwo: "1100",
     currency: "Botswana Pula(P)",
     hasTableBooking: "yes",
@@ -27,99 +14,127 @@ const PostsData = [
     aggregateRating: "4.8",
     ratingColor: "dark green",
     ratingText: "excellent",
-    votes: "3659",
+    votes: "314",
   },
 
   {
-    restaurantID: "6317638",
-    restaurantName: "Le Petit Souffle",
-    cuisines: "French",
-    averageCostForTwo: "1100",
+    restaurantID: "6304287",
+    restaurantName: "Izakaya Kikufuji",
+    cuisines: "Japanese",
+    averageCostForTwo: "1200",
     currency: "Botswana Pula(P)",
     hasTableBooking: "yes",
     hasOnlineDelivery: "no",
-    aggregateRating: "4.8",
+    aggregateRating: "4.5",
     ratingColor: "dark green",
     ratingText: "excellent",
-    votes: "3659",
+    votes: "591",
   },
   {
-    restaurantID: "6317639",
-    restaurantName: "Le Petit Souffle",
-    cuisines: "French",
-    averageCostForTwo: "1100",
+    restaurantID: "6300002",
+    restaurantName: "Heat - Edsa Shangri-La",
+    cuisines: "Seafood, Asian, Filipino, Indian",
+    averageCostForTwo: "4000",
     currency: "Botswana Pula(P)",
     hasTableBooking: "yes",
     hasOnlineDelivery: "no",
-    aggregateRating: "4.8",
-    ratingColor: "dark green",
-    ratingText: "excellent",
-    votes: "3659",
+    aggregateRating: "4.4",
+    ratingColor: "green",
+    ratingText: "Very Good",
+    votes: "270",
   },
   {
-    restaurantID: "6317640",
-    restaurantName: "Le Petit Souffle",
-    cuisines: "French",
-    averageCostForTwo: "1100",
+    restaurantID: "6318506",
+    restaurantName: "Ooma",
+    cuisines: "Japanese, Sushi",
+    averageCostForTwo: "1500",
     currency: "Botswana Pula(P)",
-    hasTableBooking: "yes",
+    hasTableBooking: "no",
     hasOnlineDelivery: "no",
-    aggregateRating: "4.8",
+    aggregateRating: "4.9",
     ratingColor: "dark green",
     ratingText: "excellent",
-    votes: "3659",
+    votes: "365",
   },
   {
-    restaurantID: "6317641",
-    restaurantName: "Le Petit Souffle",
-    cuisines: "French",
-    averageCostForTwo: "1100",
+    restaurantID: "6314302",
+    restaurantName: "Sambo Kojin",
+    cuisines: "Japanese, Korean",
+    averageCostForTwo: "1500",
     currency: "Botswana Pula(P)",
     hasTableBooking: "yes",
     hasOnlineDelivery: "no",
     aggregateRating: "4.8",
     ratingColor: "dark green",
     ratingText: "excellent",
-    votes: "3659",
+    votes: "229",
   },
   {
-    restaurantID: "6317642",
-    restaurantName: "Le Petit Souffle",
-    cuisines: "French",
-    averageCostForTwo: "1100",
+    restaurantID: "18189371",
+    restaurantName: "Din Tai Fung",
+    cuisines: "Chinese",
+    averageCostForTwo: "1000",
     currency: "Botswana Pula(P)",
-    hasTableBooking: "yes",
+    hasTableBooking: "no",
     hasOnlineDelivery: "no",
-    aggregateRating: "4.8",
-    ratingColor: "dark green",
-    ratingText: "excellent",
-    votes: "3659",
-  }
+    aggregateRating: "4.4",
+    ratingColor: "green",
+    ratingText: "Very Good",
+    votes: "336",
+  },
 
-  //   {
-  //     "category": "Development",
-  //     "title": "React and the WP-API",
-  //     "text": "The first ever decoupled starter theme for React & the WP-API",
-  //     "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
-  //   },
-  //   {
-  //     "category": "News",
-  //     "title": "CNN Acquire BEME",
-  //     "text": "CNN purchased Casey Neistat's Beme app for $25million.",
-  //     "image": "https://source.unsplash.com/user/erondu/600x400"
-  //   },
-  //   {
-  //     "category": "Travel",
-  //     "title": "Nomad Lifestyle",
-  //     "text": "Learn our tips and tricks on living a nomadic lifestyle",
-  //     "image": "https://source.unsplash.com/user/_vickyreyes/600x400"
-  //   },
-  //   {
-  //     "category": "Development",
-  //     "title": "React and the WP-API",
-  //     "text": "The first ever decoupled starter theme for React & the WP-API",
-  //     "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
-  //   }
+  {
+    restaurantID: "6300781",
+    restaurantName: "Buffet 101",
+    cuisines: "Asian, European",
+    averageCostForTwo: "2000",
+    currency: "Botswana Pula(P)",
+    hasTableBooking: "yes",
+    hasOnlineDelivery: "no",
+    aggregateRating: "4",
+    ratingColor: "green",
+    ratingText: "Very Good",
+    votes: "520",
+  },
+  {
+    restaurantID: "6301290",
+    restaurantName: "Vikings",
+    cuisines: "Seafood, Filipino, Asian, European",
+    averageCostForTwo: "2000",
+    currency: "Botswana Pula(P)",
+    hasTableBooking: "yes",
+    hasOnlineDelivery: "no",
+    aggregateRating: "4.2",
+    ratingColor: "green",
+    ratingText: "Very Good",
+    votes: "677",
+  },
+  {
+    restaurantID: "6300010",
+    restaurantName: "Spiral - Sofitel Philippine Plaza Manila",
+    cuisines: "European, Asian, Indian",
+    averageCostForTwo: "6000",
+    currency: "Botswana Pula(P)",
+    hasTableBooking: "yes",
+    hasOnlineDelivery: "no",
+    aggregateRating: "4.9",
+    ratingColor: " dark green",
+    ratingText: "Excellent",
+    votes: "621",
+  },
+  {
+    restaurantID: "6314987",
+    restaurantName: "Locavore",
+    cuisines: "Filipino",
+    averageCostForTwo: "1100",
+    currency: "Botswana Pula(P)",
+    hasTableBooking: "yes",
+    hasOnlineDelivery: "no",
+    aggregateRating: "4.8",
+    ratingColor: "dark green",
+    ratingText: "Very Good",
+    votes: "336",
+  },
 ];
 
 class RestaurentCard extends Component {
@@ -180,13 +195,10 @@ class Card extends React.Component {
   render() {
     return (
       <article className="card">
-        {/* <CardHeader category={this.props.details.category} image={this.props.details.image}/> */}
-
         <CardHeader 
         restaurantID={this.props.details.restaurantID} 
         restaurantName={this.props.details.restaurantName} />
         
-        {/* <CardBody title={this.props.details.title} text={this.props.details.text}/> */}
 
         <CardBody 
         cuisines={this.props.details.cuisines} 
@@ -238,12 +250,7 @@ class CardBody extends React.Component {
   render() {
     return (
       <div className="card-body">
-        {/* <p className="date"></p> */}
-        
-        {/* <h2>{this.props.title}</h2> */}
-
-        
-        {/* <p className="body-content">{this.props.text}</p> */}
+ 
 
         <p className="body-content">
 
